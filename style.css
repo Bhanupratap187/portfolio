@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+:root{
+    --primary-color:#2619E2;
+    --darkish-green: #34D399;
+    --off-white: #9CA3AF;
+}
+
+
+/* @nav */
+
+.nav-links{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+   
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0rem 0.5rem;
+    
+}
+.unordered{
+    text-align: right;
+}
+
+
+/* @header */
+.header{
+    padding: 2rem;
+    text-align: center;
+}
+.header-image{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+.header-heading{
+    font-size: xx-large;
+    padding-top: 1rem;
+    color: var(--darkish-green);
+}
+
+
+/* @section */
+
+.section-one , .section-two, .section-three {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+.section-one, .section-three{
+background-color: var(--off-white);
+}
+.section-two{
+    background-color: #fff;
+}
+.button-primary{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 0.5rem;
+}
+.button-secondary{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+/* @footer */
+
+.footer-links ul li {
+    list-style: none;
+    padding: 1rem 1rem;
+    display: inline;
+}
+.footer-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem 1rem;
+    color: #fff;
+    border-top-right-radius: 1rem;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
